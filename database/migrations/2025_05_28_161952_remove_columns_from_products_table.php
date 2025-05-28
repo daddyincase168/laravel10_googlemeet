@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::table('products', function (Blueprint $table) {
             $table->dropColumn('color');
-            $table->dropColumn('size');
+            $table->dropColumn('size');//
         });
     }
 
